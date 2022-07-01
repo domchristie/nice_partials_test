@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/bullet-train-co/nice_partials.git
+  revision: 3e9bbf5ae6324534ca58bc3f0372a6e8d410e91c
+  branch: auto-yielding-based-on-block-arity
+  specs:
+    nice_partials (0.1.6)
+      actionview (>= 4.2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -127,8 +135,6 @@ GEM
       digest
       net-protocol
       timeout
-    nice_partials (0.1.6)
-      actionview (>= 4.2.6)
     nio4r (2.5.8)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
@@ -220,7 +226,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  nice_partials (~> 0.1.6)
+  nice_partials!
   puma (~> 5.0)
   rails (~> 7.0.3)
   redis (~> 4.0)

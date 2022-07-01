@@ -71,4 +71,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "nice_partials", "~> 0.1.6"
+gem "nice_partials", github: "bullet-train-co/nice_partials", branch: "auto-yielding-based-on-block-arity"
